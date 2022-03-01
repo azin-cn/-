@@ -1,0 +1,65 @@
+@font-face {
+  font-family: "iconfont"; /* Project id  */
+  src: url('iconfont.ttf?t=1645958180249') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-all:before {
+  content: "\e6ef";
+}
+
+.icon-arrow-right:before {
+  content: "\e743";
+}
+
+.icon-arrow-left:before {
+  content: "\e744";
+}
+
+.icon-arrow-up:before {
+  content: "\e745";
+}
+
+.icon-close:before {
+  content: "\e747";
+}
+
+.icon-cut:before {
+  content: "\e74b";
+}
+
+.icon-dollar:before {
+  content: "\e74c";
+}
+
+.icon-searchcart:before {
+  content: "\e763";
+}
+
+.icon-Hometextile:before {
+  content: "\e7a6";
+}
+
+.icon-home:before {
+  content: "\e7a7";
+}
+
+.icon-sami-select:before {
+  content: "\e7b1";
+}
+
+.icon-arrow-down:before {
+  content: "\e7b2";
+}
+
+.icon-block:before {
+  content: "\e7de";
+}
+

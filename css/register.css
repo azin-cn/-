@@ -1,0 +1,136 @@
+.w {
+  width: 1200px;
+  margin: 0 auto;
+}
+header {
+ height: 84px;
+ border-bottom: 2px solid #C81523; 
+}
+.logo {
+  padding-top: 18px;
+}
+main {
+  height: 522px;
+  margin-top: 20px;
+  border: 1px solid #ccc;
+}
+.main_hd {
+  padding: 0 20px;
+  background-color: #E8EDE9;
+}
+.main_hd ul {
+  height: 43px;
+  line-height: 43px;
+  border-bottom: 1px solid #ccc;
+}
+.main_hd ul li:first-child {
+  float: left;
+  font-size: 16px;
+}
+.main_hd ul li:last-child {
+ float: right;
+}
+.main_hd ul li i {
+  font-size: 14px;
+}
+.login {
+  display: inline-block;
+  margin-left: 2px;
+  font-size: 14px;
+  color: #C81523;
+}
+
+.reg_form {
+   width: 600px;
+   margin: 50px auto 0;
+}
+.reg_form ul li {
+  margin-bottom: 20px;
+}
+.reg_form ul li label {
+  display: inline-block;
+  width: 120px;
+  text-align: right;
+}
+.reg_form ul li .inp {
+  width: 242px;
+  height: 37px;
+  margin-right: 10px;
+  padding-left: 4px;
+  border: 1px solid #ccc;
+}
+.reg_form ul li i img{
+  margin-right: 4px;
+  vertical-align: middle;
+}
+.reg_form ul li span{
+  vertical-align: middle;
+}
+.safe {
+  margin-left: 140px;
+}
+.success {
+  display: inline-block;
+  padding-left: 25px;
+  background: url(../images/success.png) no-repeat;
+  color: green;
+}
+.error {
+  display: inline-block;
+  padding-left: 25px;
+  background: url(../images/error.png) no-repeat;
+  color: red;
+}
+.ruo,.zhong,.qiang {
+  display: inline-block;
+  width: 30px;
+  color: #fff;
+  background-color: #F41D00;
+  text-align: center;
+}
+.zhong {
+  background-color: #FF9500;
+}
+.qiang {
+  background-color: #30A632;
+}
+.agree {
+  margin: 30px 120px;
+  vertical-align: center;
+}
+.reg_form ul li:last-child {
+  text-align: center;
+  margin-top: 40px;
+}
+.submit {
+  width: 200px;
+  height: 34px;
+  cursor: pointer;
+  background-color: #C81523;
+  text-align: center;
+}
+
+/* 底部区域 */
+.footer .mod_copyright {
+  padding-top: 20px;
+  text-align: center;
+}
+.footer .mod_copyright .links ul {
+  display: inline-block;
+  margin: 0 auto;
+}
+.footer .mod_copyright .links ul li {
+  float: left;
+}
+.footer .mod_copyright .links ul li:nth-child(even) {
+  width: 2px;
+  height: 13px;
+  margin: 5px 10px;
+  background-color: #ccc;
+}
+.footer .mod_copyright .links ul li a:hover {
+  color: #c81623;
+}
+.footer .mod_copyright .copyright {
+  font-size: 12px;
+}

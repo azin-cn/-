@@ -1,0 +1,83 @@
+/* 列表页专有的文件 */
+/* 声明字体图标 */
+@font-face {font-family: 'iconfont';
+  src: url('../fonts/');
+  src: url('../fonts/?#iefix') format('embedded-opentype'),
+  url('../fonts/iconfont.ttf') format('truetype'),
+}
+/* 秒杀logo */
+.sk { /*采用固定定位的方式进行布局，原有的head父元素存在相对定位*/
+  position: absolute;
+  top: 40px;
+  left: 190px;
+  padding: 3px 0 0 14px;
+  border-left: 1px solid #c81523;
+}
+.nav { /*如果遇见文字不在预期位置，并且是在左边右边，那么考虑是否为浮动的影响*/
+  overflow: hidden;
+}
+/* 秒杀导航栏左侧 */
+.sk_list {
+  float: left;
+}
+.sk_list ul li {
+  float: left;
+}
+.sk_list ul li a {
+  display: block;
+  padding: 0 30px;
+  line-height: 47px;
+  font-size: 16px;
+  font-weight: 700;
+}
+.sk_list ul li:hover a {
+  color: #c81523;
+}
+
+/* 秒杀导航栏右侧 */
+.sk_content {
+  float: right;
+}
+.sk_content ul li {
+  float: left;
+}
+.sk_content ul li a {
+  display: block;
+  padding: 0 20px;
+  line-height: 49px;
+  font-size: 14px;
+}
+.sk_content ul li:hover a{
+  color: #c81523;
+}
+.more::after { /*或者是找到元素a，不能是父元素li*/
+  content: '\e7b2';
+  font-family: 'iconfont';
+}
+.sk_container {
+  width: 100%;
+}
+.sk_container_hd {
+  width: 100%;
+}
+.sk_container_hd img {
+
+}
+.sk_container_bd {
+  width: 100%;
+}
+.sk_container_bd ul li {
+  float: left;
+  width: 290px;
+  height: 460px;
+  margin-top: 30px;
+  margin-right: 13px;
+  overflow: hidden;
+  border: 1px solid transparent;
+}
+.sk_container_bd ul li:nth-child(4n){
+  margin-right: 0%;
+}
+.sk_container_bd ul li:hover {
+  border: 1px solid #c81523;
+}

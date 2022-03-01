@@ -1,0 +1,31 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+a,em,i,strong {
+  color: black;
+  font-size: 12px;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+}
+
+li {
+  list-style: none;
+}
+
+input,button {
+  border: 0px;
+  outline: none;
+  border-radius: 0;
+}
+input,button,img {
+  vertical-align: middle;
+}
+
+button:hover {
+  cursor: pointer;
+}
